@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:focusable="true"
+    android:clickable="true"
+    android:foreground="?android:attr/selectableItemBackground"
+    android:background="@drawable/rectangle_button"
+    android:layout_marginBottom="10dp"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/text_name_category_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:text="@string/task"
+        android:textSize="17dp"
+        android:textColor="@color/kTextColor" />
+
+    <ProgressBar
+        android:id="@+id/progressBar_category_list"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.8"
+        android:layout_gravity="center"
+        android:max="100"
+        android:progress="40"
+        android:progressBackgroundTint="@color/kProgressBarColor"
+        android:progressTint="@color/kCheckColor" />
+
+    <TextView
+        android:id="@+id/text_total_category_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="2"
+        android:textSize="15dp"
+        android:textColor="@color/kTextColor" />
+
+
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ToDo</string>
+    <string name="category">類別</string>
+    <string name="please_enter_item">請輸入提醒事項</string>
+    <string name="today_tasks">今日提醒事項</string>
+    <string name="task">任務</string>
+    <string name="pease_enter_category">請輸入類別名稱</string>
+    <string name="life">生活</string>
+    <string name="delete">刪除</string>
+</resources>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">ToDo</string>
+    <string name="category">Category</string>
+    <string name="please_enter_item">Please Enter Item</string>
+    <string name="today_tasks">TODAY\'S TASKS</string>
+    <string name="task">task</string>
+    <string name="pease_enter_category">Please Enter Category</string>
+    <string name="life">Life</string>
+    <string name="delete">Delete</string>
+
+</resources>
